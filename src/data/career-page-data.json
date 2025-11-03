@@ -1,0 +1,47 @@
+{
+  "headerText": "A career in business consulting requires a combination of skills, education, experience, and personal.",
+  "applyPositionText": "Current business operations, identify areas of improvement, and develop strategies and solutions to address.",
+  "carouselImages": [
+    "assets/img/inner-pages/career-img-02.jpg",
+    "assets/img/inner-pages/career-img-03.jpg",
+    "assets/img/inner-pages/career-img-04.jpg",
+    "assets/img/inner-pages/career-img-05.jpg"
+  ],
+  "stats": [
+    {
+      "number": 95,
+      "text": "Consulting Project"
+    },
+    {
+      "number": 35,
+      "text": "Expert Consultant"
+    },
+    {
+      "number": 15,
+      "text": "Years Experience"
+    }
+  ],
+  "jobListings": [
+    {
+      "title": "Senior Consultant",
+      "department": "Human Research",
+      "experience": "2-3 Years",
+      "deadline": "05 April, 2023",
+      "type": "Full Time"
+    },
+    {
+      "title": "Health Care Consultant",
+      "department": "Human Research",
+      "experience": "3-5 Years",
+      "deadline": "05 April, 2023",
+      "type": "Full Time"
+    },
+    {
+      "title": "Junior Consultant",
+      "department": "Human Research",
+      "experience": "2-3 Years",
+      "deadline": "05 April, 2023",
+      "type": "Full Time"
+    }
+  ]
+}

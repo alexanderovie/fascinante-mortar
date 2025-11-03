@@ -1,0 +1,710 @@
+{
+    "blog_grid": [
+        {
+            "id": "1",
+            "blog_title": "Mastering SEO Tips and Tricks With Our Expert",
+            "blog_content": "Discover the secrets to boosting your website's visibility with our comprehensive guide to SEO best practices.",
+            "cover_image": "/assets/img/home4/blog-img1.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img1.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img1.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img1.png",
+            "author_name": "Cooper Jogan",
+            "blog_view": "125",
+            "comment": "0",
+            "comment_content": [
+                {
+                    "commenter_name": "",
+                    "comment_text": "",
+                    "comment_date": ""
+                }
+            ],
+            "date": "03 January, 2024",
+            "category": "SEO Consultancy",
+            "tags": [
+                "SEO",
+                "Digital Marketing",
+                "Website Optimization"
+            ]
+        },
+        {
+            "id": "2",
+            "blog_title": "The Future of Digital Marketing: Trends to Watch",
+            "blog_content": "Stay ahead of the curve with our analysis of emerging digital marketing trends that will shape the industry in the coming years.",
+            "cover_image": "/assets/img/home4/blog-img2.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img2.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img2.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img2.png",
+            "author_name": "Emma Thompson",
+            "blog_view": "98",
+            "comment": "3",
+            "date": "15 January, 2024",
+            "category": "Digital Marketing",
+            "tags": [
+                "Digital Marketing",
+                "Future Trends",
+                "Marketing Strategy"
+            ]
+        },
+        {
+            "id": "3",
+            "blog_title": "Maximizing ROI with Data-Driven Marketing Strategies",
+            "blog_content": "Learn how to leverage data analytics to create targeted marketing campaigns that deliver measurable results and boost your ROI.",
+            "cover_image": "/assets/img/home4/blog-img3.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img3.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img3.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img3.png",
+            "author_name": "Michael Chen",
+            "blog_view": "112",
+            "comment": "5",
+            "date": "22 January, 2024",
+            "category": "Marketing Analytics",
+            "tags": [
+                "Data Analytics",
+                "ROI",
+                "Marketing Strategy"
+            ]
+        },
+        {
+            "id": "4",
+            "blog_title": "Building a Strong Brand Identity in the Digital Age",
+            "blog_content": "Explore effective strategies for creating and maintaining a compelling brand identity that resonates with your target audience online.",
+            "cover_image": "/assets/img/home4/blog-img4.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img4.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img4.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img4.png",
+            "author_name": "Sarah Johnson",
+            "blog_view": "87",
+            "comment": "2",
+            "date": "30 January, 2024",
+            "category": "Branding",
+            "tags": [
+                "Brand Identity",
+                "Digital Branding",
+                "Online Marketing"
+            ]
+        },
+        {
+            "id": "5",
+            "blog_title": "The Power of Content Marketing: Engaging Your Audience",
+            "blog_content": "Discover how to create compelling content that attracts, engages, and converts your target audience into loyal customers.",
+            "cover_image": "/assets/img/home4/blog-img5.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img5.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img5.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img5.png",
+            "author_name": "David Lee",
+            "blog_view": "105",
+            "comment": "4",
+            "date": "07 February, 2024",
+            "category": "Content Marketing",
+            "tags": [
+                "Content Strategy",
+                "Audience Engagement",
+                "Conversion"
+            ]
+        },
+        {
+            "id": "6",
+            "blog_title": "Navigating the World of Social Media Advertising",
+            "blog_content": "Learn the ins and outs of creating effective social media ad campaigns that drive engagement and conversions across platforms.",
+            "cover_image": "/assets/img/home4/blog-img6.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img6.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img6.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img6.png",
+            "author_name": "Jessica Martinez",
+            "blog_view": "93",
+            "comment": "1",
+            "date": "14 February, 2024",
+            "category": "Social Media Marketing",
+            "tags": [
+                "Social Media",
+                "Advertising",
+                "Campaign Strategy"
+            ]
+        },
+        {
+            "id": "7",
+            "blog_title": "Email Marketing Mastery: Crafting Campaigns That Convert",
+            "blog_content": "Unlock the secrets to creating email marketing campaigns that engage subscribers and drive conversions for your business.",
+            "cover_image": "/assets/img/home4/blog-img1.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img1.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img1.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img1.png",
+            "author_name": "Robert Wilson",
+            "blog_view": "78",
+            "comment": "0",
+            "date": "21 February, 2024",
+            "category": "Email Marketing",
+            "tags": [
+                "Email Campaigns",
+                "Conversion Optimization",
+                "Subscriber Engagement"
+            ]
+        },
+        {
+            "id": "8",
+            "blog_title": "The Art of Conversion Rate Optimization",
+            "blog_content": "Explore proven techniques for optimizing your website and landing pages to increase conversions and boost your bottom line.",
+            "cover_image": "/assets/img/home4/blog-img2.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img2.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img2.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img2.png",
+            "author_name": "Olivia Brown",
+            "blog_view": "102",
+            "comment": "3",
+            "date": "28 February, 2024",
+            "category": "Conversion Optimization",
+            "tags": [
+                "CRO",
+                "Website Optimization",
+                "User Experience"
+            ]
+        },
+        {
+            "id": "9",
+            "blog_title": "Leveraging AI in Digital Marketing: Opportunities and Challenges",
+            "blog_content": "Discover how artificial intelligence is revolutionizing digital marketing and learn how to harness its power for your business.",
+            "cover_image": "/assets/img/home4/blog-img3.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img3.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img3.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img3.png",
+            "author_name": "Daniel Kim",
+            "blog_view": "115",
+            "comment": "2",
+            "date": "06 March, 2024",
+            "category": "AI in Marketing",
+            "tags": [
+                "Artificial Intelligence",
+                "Marketing Innovation",
+                "Technology"
+            ]
+        },
+        {
+            "id": "10",
+            "blog_title": "The Impact of Voice Search on SEO Strategies",
+            "blog_content": "Explore how voice search is changing the SEO landscape and learn strategies to optimize your content for voice queries.",
+            "cover_image": "/assets/img/home4/blog-img4.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img4.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img4.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img4.png",
+            "author_name": "Laura Garcia",
+            "blog_view": "89",
+            "comment": "1",
+            "date": "13 March, 2024",
+            "category": "SEO Consultancy",
+            "tags": [
+                "Voice Search",
+                "SEO",
+                "Digital Marketing"
+            ]
+        },
+        {
+            "id": "11",
+            "blog_title": "Personalization in Digital Marketing: Tailoring the User Experience",
+            "blog_content": "Learn how to leverage personalization techniques to create more engaging and effective marketing campaigns.",
+            "cover_image": "/assets/img/home4/blog-img5.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img5.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img5.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img5.png",
+            "author_name": "Alex Turner",
+            "blog_view": "76",
+            "comment": "2",
+            "date": "20 March, 2024",
+            "category": "Digital Marketing",
+            "tags": [
+                "Personalization",
+                "User Experience",
+                "Marketing Strategy"
+            ]
+        },
+        {
+            "id": "12",
+            "blog_title": "Harnessing the Power of Big Data in Marketing Analytics",
+            "blog_content": "Discover how big data is transforming marketing analytics and learn how to use it to gain valuable insights about your audience.",
+            "cover_image": "/assets/img/home4/blog-img6.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img6.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img6.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img6.png",
+            "author_name": "Sophia Lee",
+            "blog_view": "95",
+            "comment": "3",
+            "date": "27 March, 2024",
+            "category": "Marketing Analytics",
+            "tags": [
+                "Big Data",
+                "Analytics",
+                "Data-Driven Marketing"
+            ]
+        },
+        {
+            "id": "13",
+            "blog_title": "Creating a Cohesive Brand Story Across Multiple Platforms",
+            "blog_content": "Learn strategies for maintaining a consistent brand narrative across various digital channels to strengthen your brand identity.",
+            "cover_image": "/assets/img/home4/blog-img1.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img1.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img1.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img1.png",
+            "author_name": "Nathan Black",
+            "blog_view": "82",
+            "comment": "1",
+            "date": "03 April, 2024",
+            "category": "Branding",
+            "tags": [
+                "Brand Storytelling",
+                "Multi-Channel Marketing",
+                "Brand Consistency"
+            ]
+        },
+        {
+            "id": "14",
+            "blog_title": "Video Marketing: Engaging Your Audience with Visual Storytelling",
+            "blog_content": "Explore the power of video content in digital marketing and learn techniques for creating compelling visual narratives.",
+            "cover_image": "/assets/img/home4/blog-img2.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img2.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img2.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img2.png",
+            "author_name": "Emily Watson",
+            "blog_view": "108",
+            "comment": "4",
+            "date": "10 April, 2024",
+            "category": "Content Marketing",
+            "tags": [
+                "Video Marketing",
+                "Visual Storytelling",
+                "Content Strategy"
+            ]
+        },
+        {
+            "id": "15",
+            "blog_title": "Influencer Marketing: Leveraging Social Proof for Brand Growth",
+            "blog_content": "Discover how to effectively incorporate influencer partnerships into your marketing strategy to boost brand awareness and credibility.",
+            "cover_image": "/assets/img/home4/blog-img3.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img3.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img3.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img3.png",
+            "author_name": "Chris Anderson",
+            "blog_view": "91",
+            "comment": "2",
+            "date": "17 April, 2024",
+            "category": "Social Media Marketing",
+            "tags": [
+                "Influencer Marketing",
+                "Brand Partnerships",
+                "Social Proof"
+            ]
+        },
+        {
+            "id": "16",
+            "blog_title": "The Psychology of Email Subject Lines: Boosting Open Rates",
+            "blog_content": "Learn the psychological principles behind crafting compelling email subject lines that increase open rates and engagement.",
+            "cover_image": "/assets/img/home4/blog-img4.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img4.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img4.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img4.png",
+            "author_name": "Rachel Green",
+            "blog_view": "79",
+            "comment": "1",
+            "date": "24 April, 2024",
+            "category": "Email Marketing",
+            "tags": [
+                "Email Psychology",
+                "Subject Lines",
+                "Open Rates"
+            ]
+        },
+        {
+            "id": "17",
+            "blog_title": "Mobile-First Indexing: Optimizing Your Site for Mobile Search",
+            "blog_content": "Explore strategies for ensuring your website is fully optimized for mobile-first indexing to improve search engine rankings.",
+            "cover_image": "/assets/img/home4/blog-img5.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img5.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img5.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img5.png",
+            "author_name": "Mark Johnson",
+            "blog_view": "86",
+            "comment": "2",
+            "date": "01 May, 2024",
+            "category": "SEO Consultancy",
+            "tags": [
+                "Mobile-First Indexing",
+                "SEO",
+                "Mobile Optimization"
+            ]
+        },
+        {
+            "id": "18",
+            "blog_title": "The Rise of Chatbots in Customer Service and Marketing",
+            "blog_content": "Discover how chatbots are revolutionizing customer service and marketing, and learn how to implement them in your strategy.",
+            "cover_image": "/assets/img/home4/blog-img6.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img6.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img6.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img6.png",
+            "author_name": "Samantha Lee",
+            "blog_view": "97",
+            "comment": "3",
+            "date": "08 May, 2024",
+            "category": "Digital Marketing",
+            "tags": [
+                "Chatbots",
+                "Customer Service",
+                "Marketing Automation"
+            ]
+        },
+        {
+            "id": "19",
+            "blog_title": "Predictive Analytics: Forecasting Trends in Digital Marketing",
+            "blog_content": "Learn how predictive analytics can help you anticipate market trends and consumer behavior to stay ahead of the competition.",
+            "cover_image": "/assets/img/home4/blog-img1.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img1.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img1.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img1.png",
+            "author_name": "David Chen",
+            "blog_view": "104",
+            "comment": "2",
+            "date": "15 May, 2024",
+            "category": "Marketing Analytics",
+            "tags": [
+                "Predictive Analytics",
+                "Market Trends",
+                "Data Analysis"
+            ]
+        },
+        {
+            "id": "20",
+            "blog_title": "Building Brand Loyalty Through Customer Experience",
+            "blog_content": "Explore strategies for enhancing customer experience to foster brand loyalty and create long-term customer relationships.",
+            "cover_image": "/assets/img/home4/blog-img2.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img2.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img2.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img2.png",
+            "author_name": "Lisa Thompson",
+            "blog_view": "88",
+            "comment": "1",
+            "date": "22 May, 2024",
+            "category": "Branding",
+            "tags": [
+                "Brand Loyalty",
+                "Customer Experience",
+                "Customer Retention"
+            ]
+        },
+        {
+            "id": "21",
+            "blog_title": "The Power of User-Generated Content in Marketing",
+            "blog_content": "Discover how to leverage user-generated content to build trust, increase engagement, and drive conversions for your brand.",
+            "cover_image": "/assets/img/home4/blog-img3.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img3.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img3.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img3.png",
+            "author_name": "Michael Brown",
+            "blog_view": "93",
+            "comment": "2",
+            "date": "29 May, 2024",
+            "category": "Content Marketing",
+            "tags": [
+                "User-Generated Content",
+                "Brand Advocacy",
+                "Social Proof"
+            ]
+        },
+        {
+            "id": "22",
+            "blog_title": "Mastering Instagram Marketing: Tips and Strategies",
+            "blog_content": "Learn effective techniques for leveraging Instagram to boost your brand presence, engage your audience, and drive sales.",
+            "cover_image": "/assets/img/home4/blog-img4.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img4.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img4.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img4.png",
+            "author_name": "Sophie Wilson",
+            "blog_view": "101",
+            "comment": "3",
+            "date": "05 June, 2024",
+            "category": "Social Media Marketing",
+            "tags": [
+                "Instagram Marketing",
+                "Social Media Strategy",
+                "Visual Content"
+            ]
+        },
+        {
+            "id": "23",
+            "blog_title": "Email Automation: Streamlining Your Marketing Efforts",
+            "blog_content": "Explore how email automation can help you save time, improve efficiency, and deliver more personalized content to your subscribers.",
+            "cover_image": "/assets/img/home4/blog-img5.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img5.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img5.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img5.png",
+            "author_name": "Andrew Davis",
+            "blog_view": "85",
+            "comment": "1",
+            "date": "12 June, 2024",
+            "category": "Email Marketing",
+            "tags": [
+                "Email Automation",
+                "Marketing Efficiency",
+                "Personalization"
+            ]
+        },
+        {
+            "id": "24",
+            "blog_title": "The Impact of Core Web Vitals on SEO",
+            "blog_content": "Understand the importance of Core Web Vitals in SEO and learn strategies to improve your website's performance metrics.",
+            "cover_image": "/assets/img/home4/blog-img6.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img6.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img6.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img6.png",
+            "author_name": "Jennifer Lee",
+            "blog_view": "92",
+            "comment": "2",
+            "date": "19 June, 2024",
+            "category": "SEO Consultancy",
+            "tags": [
+                "Core Web Vitals",
+                "SEO",
+                "Website Performance"
+            ]
+        },
+        {
+            "id": "25",
+            "blog_title": "Neuromarketing: Understanding Consumer Behavior",
+            "blog_content": "Explore the fascinating field of neuromarketing and learn how to apply its principles to create more effective marketing campaigns.",
+            "cover_image": "/assets/img/home4/blog-img1.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img1.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img1.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img1.png",
+            "author_name": "Robert Taylor",
+            "blog_view": "99",
+            "comment": "3",
+            "date": "26 June, 2024",
+            "category": "Digital Marketing",
+            "tags": [
+                "Neuromarketing",
+                "Consumer Behavior",
+                "Psychology in Marketing"
+            ]
+        },
+        {
+            "id": "26",
+            "blog_title": "Data Visualization in Marketing: Telling Stories with Numbers",
+            "blog_content": "Learn how to effectively use data visualization techniques to communicate complex information and drive marketing decisions.",
+            "cover_image": "/assets/img/home4/blog-img2.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img2.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img2.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img2.png",
+            "author_name": "Emma Roberts",
+            "blog_view": "87",
+            "comment": "1",
+            "date": "03 July, 2024",
+            "category": "Marketing Analytics",
+            "tags": [
+                "Data Visualization",
+                "Marketing Insights",
+                "Data Storytelling"
+            ]
+        },
+        {
+            "id": "27",
+            "blog_title": "Creating a Strong Employer Brand to Attract Top Talent",
+            "blog_content": "Discover strategies for developing a compelling employer brand that attracts and retains the best talent in your industry.",
+            "cover_image": "/assets/img/home4/blog-img3.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img3.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img3.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img3.png",
+            "author_name": "Daniel White",
+            "blog_view": "81",
+            "comment": "2",
+            "date": "10 July, 2024",
+            "category": "Branding",
+            "tags": [
+                "Employer Branding",
+                "Talent Acquisition",
+                "Company Culture"
+            ]
+        },
+        {
+            "id": "28",
+            "blog_title": "The Rise of Podcasting in Content Marketing",
+            "blog_content": "Explore the growing importance of podcasts in content marketing and learn how to create a successful podcast strategy for your brand.",
+            "cover_image": "/assets/img/home4/blog-img4.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img4.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img4.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img4.png",
+            "author_name": "Sarah Miller",
+            "blog_view": "95",
+            "comment": "3",
+            "date": "17 July, 2024",
+            "category": "Content Marketing",
+            "tags": [
+                "Podcasting",
+                "Audio Content",
+                "Content Strategy"
+            ]
+        },
+        {
+            "id": "29",
+            "blog_title": "Leveraging TikTok for Business: Strategies and Best Practices",
+            "blog_content": "Learn how to effectively use TikTok as a marketing platform to reach younger audiences and boost brand awareness.",
+            "cover_image": "/assets/img/home4/blog-img5.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img5.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img5.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img5.png",
+            "author_name": "Alex Johnson",
+            "blog_view": "103",
+            "comment": "4",
+            "date": "24 July, 2024",
+            "category": "Social Media Marketing",
+            "tags": [
+                "TikTok Marketing",
+                "Social Media Strategy",
+                "Video Content"
+            ]
+        },
+        {
+            "id": "30",
+            "blog_title": "The Art of Email Segmentation: Targeting the Right Audience",
+            "blog_content": "Discover how to effectively segment your email list to deliver more relevant content and improve your email marketing results.",
+            "cover_image": "/assets/img/home4/blog-img6.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img6.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img6.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img6.png",
+            "author_name": "Olivia Parker",
+            "blog_view": "89",
+            "comment": "2",
+            "date": "31 July, 2024",
+            "category": "Email Marketing",
+            "tags": [
+                "Email Segmentation",
+                "Targeted Marketing",
+                "Personalization"
+            ]
+        },
+        {
+            "id": "31",
+            "blog_title": "Local SEO: Boosting Your Business in Local Search Results",
+            "blog_content": "Learn strategies to improve your local SEO and increase visibility in local search results to attract more nearby customers.",
+            "cover_image": "/assets/img/home4/blog-img1.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img1.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img1.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img1.png",
+            "author_name": "Thomas Brown",
+            "blog_view": "97",
+            "comment": "3",
+            "date": "07 August, 2024",
+            "category": "SEO Consultancy",
+            "tags": [
+                "Local SEO",
+                "Google My Business",
+                "Local Search"
+            ]
+        },
+        {
+            "id": "32",
+            "blog_title": "The Future of E-commerce: Trends and Innovations",
+            "blog_content": "Explore emerging trends and technologies shaping the future of e-commerce and learn how to stay ahead of the curve.",
+            "cover_image": "/assets/img/home4/blog-img2.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img2.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img2.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img2.png",
+            "author_name": "Emily Chen",
+            "blog_view": "105",
+            "comment": "4",
+            "date": "14 August, 2024",
+            "category": "Digital Marketing",
+            "tags": [
+                "E-commerce Trends",
+                "Online Shopping",
+                "Retail Innovation"
+            ]
+        },
+        {
+            "id": "33",
+            "blog_title": "Mastering Google Analytics 4: Insights for Better Marketing",
+            "blog_content": "Learn how to leverage the new features of Google Analytics 4 to gain deeper insights into your website performance and user behavior.",
+            "cover_image": "/assets/img/home4/blog-img3.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img3.jpg",
+            "standard_image": "/assets/img/inner-pages/blog-st-img3.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img3.png",
+            "author_name": "Michael Scott",
+            "blog_view": "91",
+            "comment": "2",
+            "date": "21 August, 2024",
+            "category": "Marketing Analytics",
+            "tags": [
+                "Google Analytics 4",
+                "Web Analytics",
+                "Data-Driven Marketing"
+            ]
+        },
+        {
+            "id": "34",
+            "blog_title": "Building a Purpose-Driven Brand in the Modern Era",
+            "blog_content": "Discover how to create a purpose-driven brand that resonates with consumers and drives long-term loyalty and growth.",
+            "cover_image": "/assets/img/home4/blog-img4.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img4.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img4.png",
+            "author_name": "Sophia Anderson",
+            "blog_view": "83",
+            "comment": "1",
+            "date": "28 August, 2024",
+            "category": "Branding",
+            "tags": [
+                "Purpose-Driven Branding",
+                "Brand Values",
+                "Corporate Social Responsibility"
+            ]
+        },
+        {
+            "id": "35",
+            "blog_title": "The Power of Storytelling in B2B Content Marketing",
+            "blog_content": "Learn how to use storytelling techniques to create compelling B2B content that engages your audience and drives business growth.",
+            "cover_image": "/assets/img/home4/blog-img5.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img5.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img5.png",
+            "author_name": "David Wilson",
+            "blog_view": "88",
+            "comment": "2",
+            "date": "04 September, 2024",
+            "category": "Content Marketing",
+            "tags": [
+                "B2B Marketing",
+                "Storytelling",
+                "Content Strategy"
+            ]
+        },
+        {
+            "id": "36",
+            "blog_title": "Maximizing LinkedIn for B2B Marketing Success",
+            "blog_content": "Explore strategies for leveraging LinkedIn to build your professional network, generate leads, and grow your B2B business.",
+            "cover_image": "/assets/img/home4/blog-img6.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img6.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img6.png",
+            "author_name": "Rachel Green",
+            "blog_view": "96",
+            "comment": "3",
+            "date": "11 September, 2024",
+            "category": "Social Media Marketing",
+            "tags": [
+                "LinkedIn Marketing",
+                "B2B Social Media",
+                "Professional Networking"
+            ]
+        },
+        {
+            "id": "37",
+            "blog_title": "Creating Effective Drip Email Campaigns",
+            "blog_content": "Learn how to design and implement successful drip email campaigns that nurture leads and guide them through the sales funnel.",
+            "cover_image": "/assets/img/home4/blog-img1.jpg",
+            "thumbnail_image": "/assets/img/inner-pages/blog-details-thumb-img1.jpg",
+            "author_image": "/assets/img/inner-pages/blog-meta-author-img1.png",
+            "author_name": "Mark Thompson",
+            "blog_view": "85",
+            "comment": "1",
+            "date": "18 September, 2024",
+            "category": "Email Marketing",
+            "tags": [
+                "Drip Campaigns",
+                "Lead Nurturing",
+                "Email Automation"
+            ]
+        }
+    ]
+}
