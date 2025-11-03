@@ -48,7 +48,8 @@ export default function RootLayout({ children }) {
         <meta name="description" content="Your description here" />
         <meta name="keywords" content="next.js, SEO, meta tags" />
         <title>Mortar - IT Startup & Digital Agency Template.</title>
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+        <link rel="preload" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' /></noscript>
 
         {/* GSAP Scripts */}
         <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" onLoad={() => { window.gsap.registerPlugin(window.ScrollTrigger); }} />
