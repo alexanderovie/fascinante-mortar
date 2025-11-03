@@ -7,11 +7,14 @@ import Home4ProcessSection from '@/components/process-sections/Home4ProcessSecti
 import Home4ServiceSection from '@/components/service-section/Home4ServiceSection'
 import Home4TeamSection from '@/components/team-section/Home4TeamSection'
 import Home4testimonialSection from '@/components/testimonial-section/Home4testimonialSection'
+import Header from '@/components/header/Header'
+import Footer1 from '@/components/Footer/Footer1'
 import React from 'react'
 
 const AuditPage = () => {
     return (
         <>
+            <Header />
             <Home4Banner />
             <Home4ParnerSection />
             <Home4FeatureSection />
@@ -21,6 +24,7 @@ const AuditPage = () => {
             <Home4CaseStudySection />
             <Home4TeamSection />
             <Home4ContactSection />
+            <Footer1 />
         </>
     )
 }
