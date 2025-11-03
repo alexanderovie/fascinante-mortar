@@ -45,7 +45,7 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       swiper:
-        specifier: ^8.4.5
+        specifier: ^8.4.7
         version: 8.4.7
       wowjs:
         specifier: ^1.1.3
