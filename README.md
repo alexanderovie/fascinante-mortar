@@ -61,4 +61,3 @@ Este template será personalizado para Fascinante Digital manteniendo la UI idé
 ---
 
 **Nota**: Esta es una copia exacta del template Mortar sin modificaciones. Los cambios personalizados se aplicarán en futuros commits.
-

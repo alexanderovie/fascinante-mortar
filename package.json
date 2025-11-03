@@ -28,6 +28,7 @@
     "devDependencies": {
         "bootstrap": "^5.3.3",
         "eslint": "^8",
-        "eslint-config-next": "14.2.4"
+        "eslint-config-next": "14.2.4",
+        "svgo": "^4.0.0"
     }
 }
