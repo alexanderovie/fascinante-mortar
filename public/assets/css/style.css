@@ -19227,7 +19227,7 @@ header.style-7 .primary-btn3.four svg {
   30. Home3 Testimonial Section CSS
 ========================================*/
 .home3-testimonial-section {
-  background-image: linear-gradient(180deg, rgba(240, 240, 240, 0.6) 0%, rgba(240, 240, 240, 0.6) 100%), url(../img/home3/home3-testimonial-section-bg.png);
+  background-image: linear-gradient(180deg, rgba(240, 240, 240, 0.6) 0%, rgba(240, 240, 240, 0.6) 100%), url(../img/home3/home3-testimonial-section-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 110px 0;
@@ -37064,7 +37064,7 @@ body.dark .home1-company-info-section .counter-wrap {
   background-color: #1C1A1E;
 }
 body.dark .contact-form-wrap {
-  background-image: linear-gradient(rgba(28, 26, 30, 0.9), rgba(28, 26, 30, 0.9)), url(../img/home1/contact-form-dark-bg.png);
+  background-image: linear-gradient(rgba(28, 26, 30, 0.9), rgba(28, 26, 30, 0.9)), url(../img/home1/contact-form-dark-bg.webp);
 }
 body.dark .contact-form-wrap .form-inner input,
 body.dark .contact-form-wrap .form-inner textarea {
@@ -37196,7 +37196,7 @@ body.dark .contact-btn-area.two .primary-btn4.transparent .icon {
   background-color: #1C1C1C;
 }
 body.dark .home3-testimonial-section {
-  background-image: linear-gradient(180deg, rgba(28, 26, 30, 0.9) 0%, rgba(28, 26, 30, 0.9) 100%), url(../img/home3/home3-testimonial-section-bg.png);
+  background-image: linear-gradient(180deg, rgba(28, 26, 30, 0.9) 0%, rgba(28, 26, 30, 0.9) 100%), url(../img/home3/home3-testimonial-section-bg.webp);
 }
 body.dark .testimonial-card3 .testimonial-content-wrap {
   -webkit-mask-image: url(../img/home3/home3-testimonial-card-bg-dark.png);
