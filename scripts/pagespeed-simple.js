@@ -29,7 +29,7 @@ async function getMetrics(url, strategy) {
   const url = 'https://fascinante-mortar.vercel.app/';
   const mobile = await getMetrics(url, 'mobile');
   const desktop = await getMetrics(url, 'desktop');
-  
+
   console.log('\n📊 PERFORMANCE METRICS:');
   console.log(`\n🖥️  Desktop: ${desktop.performance}/100`);
   console.log(`📱 Mobile: ${mobile.performance}/100`);
@@ -38,4 +38,3 @@ async function getMetrics(url, strategy) {
   console.log(`   Mobile: ${mobile.lcp}`);
   console.log('\n');
 })();
-

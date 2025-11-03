@@ -38,6 +38,7 @@
     "yet-another-react-lightbox": "^3.23.0"
   },
   "devDependencies": {
+    "@lhci/cli": "^0.15.1",
     "bootstrap": "^5.3.3",
     "eslint": "^8",
     "eslint-config-next": "16.0.1",

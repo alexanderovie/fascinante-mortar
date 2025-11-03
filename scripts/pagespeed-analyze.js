@@ -3,7 +3,7 @@
 /**
  * PageSpeed Insights API Analyzer
  * Uses the PageSpeed Insights API to analyze and track performance metrics
- * 
+ *
  * Usage:
  *   node scripts/pagespeed-analyze.js https://your-site.com
  */
@@ -25,7 +25,7 @@ async function analyzePageSpeed(url, strategy = 'mobile') {
 
   try {
     const response = await fetch(apiUrl);
-    
+
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -56,30 +56,30 @@ function parseResults(data) {
   const si = audits['speed-index'];
 
   const coreWebVitals = {
-    fcp: fcp ? { 
+    fcp: fcp ? {
       value: fcp.numericValue,
       display: fcp.displayValue,
-      rating: fcp.score 
+      rating: fcp.score
     } : null,
-    lcp: lcp ? { 
+    lcp: lcp ? {
       value: lcp.numericValue,
       display: lcp.displayValue,
-      rating: lcp.score 
+      rating: lcp.score
     } : null,
-    cls: cls ? { 
+    cls: cls ? {
       value: cls.numericValue,
       display: cls.displayValue,
-      rating: cls.score 
+      rating: cls.score
     } : null,
-    tbt: tbt ? { 
+    tbt: tbt ? {
       value: tbt.numericValue,
       display: tbt.displayValue,
-      rating: tbt.score 
+      rating: tbt.score
     } : null,
-    si: si ? { 
+    si: si ? {
       value: si.numericValue,
       display: si.displayValue,
-      rating: si.score 
+      rating: si.score
     } : null
   };
 
@@ -163,7 +163,7 @@ function displayResults(results) {
   console.log('\n🎯 CORE WEB VITALS:');
   const v = results.coreWebVitals;
   const ratingEmoji = (r) => r === null ? '⚪' : r >= 0.9 ? '🟢' : r >= 0.5 ? '🟡' : '🔴';
-  
+
   if (v.fcp) console.log(`   ${ratingEmoji(v.fcp.rating)} First Contentful Paint: ${v.fcp.display}`);
   if (v.lcp) console.log(`   ${ratingEmoji(v.lcp.rating)} Largest Contentful Paint: ${v.lcp.display}`);
   if (v.cls) console.log(`   ${ratingEmoji(v.cls.rating)} Cumulative Layout Shift: ${v.cls.display}`);
@@ -203,7 +203,7 @@ function displayResults(results) {
 // Main
 (async () => {
   const url = process.argv[2];
-  
+
   if (!url) {
     console.error('❌ Error: Please provide a URL');
     console.log('Usage: node scripts/pagespeed-analyze.js <url>');
@@ -214,7 +214,7 @@ function displayResults(results) {
     // Analyze mobile
     const mobileResults = await analyzePageSpeed(url, 'mobile');
     displayResults(mobileResults);
-    
+
     // Analyze desktop
     const desktopResults = await analyzePageSpeed(url, 'desktop');
     displayResults(desktopResults);
@@ -225,4 +225,3 @@ function displayResults(results) {
     process.exit(1);
   }
 })();
-
