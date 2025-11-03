@@ -34,6 +34,12 @@ export default function RootLayout({ children }) {
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
     require("../../public/assets/js/confetti.browser.min");
+    
+    // Load boxicons CSS after preload to avoid render blocking
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css';
+    document.head.appendChild(link);
   }, []);
 
   return (
@@ -48,7 +54,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content="Your description here" />
         <meta name="keywords" content="next.js, SEO, meta tags" />
         <title>Mortar - IT Startup & Digital Agency Template.</title>
-        <link rel="preload" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+        <link rel="preload" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' as="style" />
         <noscript><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' /></noscript>
 
         {/* GSAP Scripts */}

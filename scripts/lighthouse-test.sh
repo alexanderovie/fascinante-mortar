@@ -40,4 +40,3 @@ if [ ! -z "$DEV_PID" ]; then
     echo "Stopping dev server..."
     kill $DEV_PID
 fi
-
