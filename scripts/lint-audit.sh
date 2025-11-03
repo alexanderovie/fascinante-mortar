@@ -14,4 +14,3 @@ if command -v eslint &> /dev/null; then
     echo "📋 Ejecutando ESLint directamente..."
     npx eslint src/app/audit/page.js --ext .js --format=stylish 2>&1 || true
 fi
-
