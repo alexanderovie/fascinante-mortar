@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lighthouse": "bash scripts/lighthouse-test.sh",
+    "lighthouse:mobile": "npx lighthouse http://localhost:3000 --preset=mobile --only-categories=performance --output=html --output-path=./lighthouse-mobile.html --chrome-flags=\"--headless\"",
+    "lighthouse:desktop": "npx lighthouse http://localhost:3000 --preset=desktop --only-categories=performance --output=html --output-path=./lighthouse-desktop.html --chrome-flags=\"--headless\""
   },
   "browserslist": {
     "production": [
@@ -42,6 +45,7 @@
     "bootstrap": "^5.3.3",
     "eslint": "^8",
     "eslint-config-next": "16.0.1",
+    "lighthouse": "^13.0.1",
     "sharp": "^0.34.4",
     "svgo": "^4.0.0"
   }
