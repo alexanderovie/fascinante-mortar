@@ -22,7 +22,7 @@ fi
 # Run Lighthouse for mobile
 echo ""
 echo "📱 Testing MOBILE performance..."
-npx lighthouse http://localhost:3000 --preset=mobile --only-categories=performance --output=html --output-path=./lighthouse-mobile.html --chrome-flags="--headless"
+npx lighthouse http://localhost:3000 --preset=perf --only-categories=performance --output=html --output-path=./lighthouse-mobile.html --chrome-flags="--headless"
 
 # Run Lighthouse for desktop
 echo ""
