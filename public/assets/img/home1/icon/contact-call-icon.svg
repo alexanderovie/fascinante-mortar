@@ -1,16 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" fill="none" viewBox="0 0 28 28">
-    <mask id="a" width="28" height="28" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha">
-        <path fill="#d9d9d9" d="M0 0h28v28H0z"/>
-    </mask>
-    <g clip-path="url(#b)">
-        <path fill="url(#c)" d="M.977.478h26.097v27.527H.977z"/>
+    <g clip-path="url(#a)">
+        <path fill="url(#b)" d="M.977.478h26.097v27.527H.977z"/>
         <path fill="url(#d)" d="M3.773 2.934C2.307 4.372 1.556 5.968 2.096 6.498s2.168-.206 3.634-1.645c1.467-1.44 2.218-3.034 1.678-3.564s-2.168.207-3.635 1.645" opacity=".75" style="mix-blend-mode:screen"/>
         <path fill="url(#e)" d="M8.045 18.731c-1.487-1.647-2.875-2.824-3.098-2.629-.224.196.798 1.689 2.286 3.336s2.874 2.823 3.098 2.628c.225-.195-.799-1.688-2.286-3.335" opacity=".51" style="mix-blend-mode:screen"/>
         <path fill="url(#f)" d="M14.839 3.719h9.299v9.966h-9.299z"/>
         <path fill="url(#g)" d="M15.703-.006h12.308v13.304H15.703z"/>
     </g>
     <defs>
-        <pattern id="c" width="1" height="1" patternContentUnits="objectBoundingBox">
+        <pattern id="b" width="1" height="1" patternContentUnits="objectBoundingBox">
             <use xlink:href="#h" transform="scale(.00095 .00088)"/>
         </pattern>
         <pattern id="f" width="1" height="1" patternContentUnits="objectBoundingBox">
@@ -44,7 +41,7 @@
             <stop offset=".91" stop-color="#050505"/>
             <stop offset="1"/>
         </radialGradient>
-        <clipPath id="b">
+        <clipPath id="a">
             <path fill="#fff" d="M1 0h27v28H1z"/>
         </clipPath>
     </defs>
