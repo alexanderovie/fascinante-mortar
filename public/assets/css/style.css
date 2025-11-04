@@ -3859,6 +3859,26 @@ header.style-1 .mobile-logo-area .menu-close-btn:hover i {
     transform: translateX(0);
   }
 
+  /* Overlay para cerrar el menú móvil al hacer clic fuera */
+  header.style-1 .mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  @media (min-width: 992px) {
+    header.style-1 .mobile-menu-overlay {
+      display: none;
+    }
+  }
+
   header.style-1 .main-menu .mobile-menu-logo {
     text-align: left;
     padding-top: 20px;
@@ -23552,7 +23572,7 @@ header.style-7 .primary-btn3.four svg {
    Para igualar: 208px (padding original) - ~70px (altura header) = ~138px de padding adicional
    Pero como ya hay espacio del header, solo necesitamos ajustar a ~138px total */
 body:has(header.style-1) .home4-banner-section {
-  padding-top: 138px;
+  padding-top: 100px;
 }
 
 @media (min-width: 1400px) and (max-width: 1599px) {
@@ -23561,7 +23581,7 @@ body:has(header.style-1) .home4-banner-section {
   }
 
   body:has(header.style-1) .home4-banner-section {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 }
 
@@ -23571,7 +23591,7 @@ body:has(header.style-1) .home4-banner-section {
   }
 
   body:has(header.style-1) .home4-banner-section {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 }
 
@@ -23581,7 +23601,7 @@ body:has(header.style-1) .home4-banner-section {
   }
 
   body:has(header.style-1) .home4-banner-section {
-    padding-top: 80px;
+    padding-top: 60px;
   }
 }
 
