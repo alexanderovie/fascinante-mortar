@@ -1,26 +1,26 @@
 "use client";
-import "../../public/assets/css/bootstrap.min.css";
-import "../../public/assets/css/all.min.css";
-import "../../public/assets/css/bootstrap-icons.css";
-import "../../public/assets/css/animate.min.css";
-import "../../public/assets/css/swiper-bundle.min.css";
+import useMagneticHover from "@/customHooks/useMagneticHover";
+import { useWow } from '@/customHooks/useWow';
+import { dmsans, lora, suseSans } from "@/fonts/font";
+import { usePathname } from 'next/navigation'; // Import usePathname
+import { useEffect } from "react";
 import "react-modal-video/css/modal-video.css";
-import "../../public/assets/css/slick-theme.css";
+import "../../public/assets/css/all.min.css";
+import "../../public/assets/css/animate.min.css";
+import "../../public/assets/css/bootstrap-icons.css";
+import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/css/nice-select.css";
+import "../../public/assets/css/slick-theme.css";
 import "../../public/assets/css/slick.css";
 import "../../public/assets/css/style.css";
-import { useEffect } from "react";
-import { useWow } from '@/customHooks/useWow';
-import useMagneticHover from "@/customHooks/useMagneticHover";
-import { dmsans, suseSans, lora } from "@/fonts/font";
-import { usePathname } from 'next/navigation'; // Import usePathname
+import "../../public/assets/css/swiper-bundle.min.css";
 
 
 import Script from 'next/script';
 
 import ThemeSwitch from "@/components/common/Theme";
-import ScrollCircleProgress from "@/utils/ScrollCircleProgess";
 import useButtonHoverEffect from "@/customHooks/useButtonHoverEffect";
+import ScrollCircleProgress from "@/utils/ScrollCircleProgess";
 import SmoothPageScroll from "@/utils/SmoothPageScroll";
 import AnimatedCursor from "react-animated-cursor";
 
@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
         <Script src="/assets/js/ScrollTrigger.min.js" strategy="beforeInteractive" />
         <Script src="/assets/js/SplitText.min.js" strategy="beforeInteractive" />
       </head>
-      <body id="body" className={`tt-magic-cursor ${lora.variable} ${dmsans.variable} ${suseSans.variable}`}>
+      <body id="body" className={`tt-magic-cursor ${lora.variable} ${dmsans.variable} ${suseSans.variable}`} suppressHydrationWarning>
 
         <SmoothPageScroll />
         {children}

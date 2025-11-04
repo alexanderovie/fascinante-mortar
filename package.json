@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "lint:audit": "npx eslint src/app/audit/page.js --resolve-plugins-relative-to . --max-warnings=0 || echo 'Usa: pnpm lint para chequear todo el proyecto'",
     "lighthouse": "bash scripts/lighthouse-test.sh",
     "lighthouse:mobile": "npx lighthouse http://localhost:3000 --preset=perf --only-categories=performance --output=html --output-path=./lighthouse-mobile.html --chrome-flags=\"--headless\"",
