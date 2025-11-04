@@ -1,5 +1,5 @@
 "use client"
-import React, { useMemo } from 'react'
+import React, { useEffect, useMemo } from 'react'
 import Home3Footer from '@/components/Footer/Home3Footer'
 import Header3 from '@/components/header/Header3'
 import Link from 'next/link'
@@ -11,8 +11,11 @@ import SwiperCore, {
     Pagination,
 } from "swiper";
 
-SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 const ServiceDetailsPage = () => {
+    useEffect(() => {
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
+    }, []);
     const settings = useMemo(() => {
         return {
             slidesPerView: "auto",

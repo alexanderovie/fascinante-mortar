@@ -1,5 +1,5 @@
 "use client"
-import React, { useMemo, useRef, useState } from 'react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
 import AwardListSection from '@/components/AwardListSection'
 import Home3Footer from '@/components/Footer/Home3Footer'
 import Header3 from '@/components/header/Header3'
@@ -16,8 +16,11 @@ import "yet-another-react-lightbox/styles.css";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Counter from '@/components/common/Counter'
 import Link from 'next/link'
-SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 const AboutPage = () => {
+    useEffect(() => {
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
+    }, []);
     const [isOpenimg, setOpenimg] = useState({
         openingState: false,
         openingIndex: 0,

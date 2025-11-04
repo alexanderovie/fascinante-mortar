@@ -1,5 +1,5 @@
 "use client";
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
@@ -11,9 +11,11 @@ import SwiperCore, {
 } from "swiper";
 import Header3 from "@/components/header/Header3";
 import Link from "next/link";
-SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination,Mousewheel]);
-
 const HorizontalPortfolioPage = () => {
+    useEffect(() => {
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination, Mousewheel]);
+    }, []);
     const settings = useMemo(() => {
         return {
             slidesPerView: "auto",

@@ -1,5 +1,5 @@
 "use client";
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Home3Footer from '@/components/Footer/Home3Footer'
 import Header3 from '@/components/header/Header3'
 import Link from 'next/link'
@@ -11,11 +11,13 @@ import SwiperCore, {
     Pagination,
 } from "swiper";
 
-SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
-
 
 
 const ProductDetailsPage = () => {
+    useEffect(() => {
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
+    }, []);
     const [quantity, setQuantity] = useState(1);
 
   const handleIncrement = () => {
